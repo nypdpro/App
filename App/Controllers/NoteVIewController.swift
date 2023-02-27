@@ -44,6 +44,7 @@ class NoteViewController: UIViewController {
     
     private func setupNavigationBarItem() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissKeyboard))
+        //button right at the end of sheet
     }
 
     private func setupTextView() {
