@@ -72,6 +72,15 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		36CEB5B129C0C40100201FB6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				36F3F51E299E8B06003964F0 /* TableViewManager.swift */,
+				36F3F524299E8B4C003964F0 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		36F3F4F0299E84C7003964F0 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +100,7 @@
 		36F3F4FB299E84C7003964F0 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				36CEB5B129C0C40100201FB6 /* Managers */,
 				36F3F526299E8B63003964F0 /* View */,
 				36F3F518299E8A81003964F0 /* Controllers */,
 				36F3F51D299E8AED003964F0 /* Model */,
@@ -114,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				36F3F513299E86DF003964F0 /* Note+CoreDataClass.swift */,
-				36F3F51E299E8B06003964F0 /* TableViewManager.swift */,
-				36F3F524299E8B4C003964F0 /* CoreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

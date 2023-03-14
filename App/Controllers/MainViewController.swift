@@ -69,13 +69,14 @@ class MainViewController: UIViewController {
     
     private func setupLabel() {
         view.addSubview(label)
-        label.text = "No notes yet"
+        label.text = "Hit a button to create notes"
+        label.numberOfLines = 0 
         label.font = .systemFont(ofSize: 20)
         label.textColor = .systemGray
         label.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             label.heightAnchor.constraint(equalToConstant: 30),
-            label.widthAnchor.constraint(equalToConstant: 120),
+            label.widthAnchor.constraint(equalToConstant: 250),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
